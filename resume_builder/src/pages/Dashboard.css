@@ -1,0 +1,86 @@
+.headerdash{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 255, 0.288);
+    border-radius: 25px;
+    margin: 15px;
+    box-shadow: 0px 0px 10px rgba(73, 153, 218, 0.473);
+}
+
+.conn{
+    box-sizing: border-box;
+    
+    padding: 0;
+    margin: 0;
+}
+.imagee{
+    
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);
+}
+.forg{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+.acc{
+    margin-right: 20px;
+    
+}
+.seltemp{
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+}
+.cardd{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    transform: translateY(-50%) translateX(-50%);
+}
+.cardd li{
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    transition-duration: .5s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cardd li .cardcon{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center top;
+}
+
+.cardd li:hover{
+    transition-delay: .3s;
+    width: 300px;
+    height: 180px;
+}
+.imgg{
+    display:flex;
+    justify-content: space-evenly;
+}
+.iii{
+    width: 400px;
+    height: 500px;
+}
+
+.imgg :hover{
+    border: 2px solid rgba(5, 109, 194, 0.336);
+    
+    box-shadow: 0px 0px 20px rgba(137, 43, 226, 0.548);
+    cursor: pointer;
+}

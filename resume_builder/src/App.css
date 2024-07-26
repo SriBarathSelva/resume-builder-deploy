@@ -1,0 +1,129 @@
+html, body{
+  width: 100%;
+}
+
+.App{
+  text-align: center;
+  display: flex;
+ 
+  justify-content: space-between;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+div.formComp{
+  
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(79, 147, 224, 0.568);
+  width: 500px;
+  height: 100vh;
+  overflow: auto;
+  
+  text-align: justify;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.formComp::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.formComp {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+.backclr,body{
+  background:linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  height: 100vh;
+}
+.submit-btn{
+  border: 0;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px 30px;
+}
+.cont{
+  background: rgba(177, 188, 194, 0.25);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.logo{
+display: flex;
+align-items: center;
+margin: 30px;
+
+}
+.logoname{
+font-size: 20px;
+font-weight: bolder;
+padding: 5px;
+}
+.homeComp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 150px;
+  
+  
+}
+.container{
+  
+  
+  text-align: center;
+  width:fit-content;
+  padding: 20px 200px;
+  margin: 50px;
+  
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgba(146, 118, 191, 0.47);
+  background: rgba(49, 41, 122, 0.459);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  
+}
+/* Home.css */
+.login, .register {
+   /* Remove underline */
+  color: #00042c; /* Change to your desired color */
+  font-size: 30px;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+  font-family:sans-serif;
+  font-weight: bold;
+  text-shadow: #A8C0FF;
+  behavior: button;
+  border-radius: 20px;
+  margin: 15px;
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login:hover, .register:hover {
+  color: #555; /* Change to another desired color on hover */
+}
+.motto{
+  text-align: center;
+  width: 700px;
+}
+
+.mottomain{
+  font-weight: bolder;
+  font-size: 35px;
+  color: #010857;
+}
+
