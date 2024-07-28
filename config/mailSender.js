@@ -22,7 +22,7 @@ module.exports = async (data, mailType) => {
         // Email content
         const context = `<div><h1>Please verify your email by clicking this link</h1>
         <br/>
-        <a href="https://localhost:5000/verify/${verifyToken}">Click this token</a>
+        <a href="http://localhost:5173/verify/${verifyToken}">Click this Link</a>
         </div>`;
 
         let mailOptions;
@@ -31,7 +31,7 @@ module.exports = async (data, mailType) => {
                 mailOptions = {
                     from: process.env.VERIFY_MAIL,
                     to: data.email,
-                    subject: "Verify your email for JWT App",
+                    subject: "Verify your email for Resume Builder Application",
                     html: context
                 };
                 break;
