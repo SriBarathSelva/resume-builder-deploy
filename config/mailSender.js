@@ -22,7 +22,7 @@ module.exports = async (data, mailType) => {
         // Email content
         const context = `<div><h1>Please verify your email by clicking this link</h1>
         <br/>
-        <a href="https://resume-builder-deploy-production.up.railway.app/verify/${verifyToken}">Click this Link</a>
+        <a href="https://resume-builder-deploy-1.onrender.com/verify/${verifyToken}">Click this Link</a>
         </div>`;
 
         let mailOptions;
