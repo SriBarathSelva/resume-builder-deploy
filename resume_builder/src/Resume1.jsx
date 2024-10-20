@@ -56,7 +56,7 @@ const Resume1 = () => {
         return;
       }
   
-      const response = await fetch('http://localhost:5000/auth/resumes', {
+      const response = await fetch('https://resume-builder-deploy-1.onrender.com/auth/resumes', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
