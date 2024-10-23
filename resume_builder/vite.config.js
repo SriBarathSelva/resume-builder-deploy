@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/auth': 'http://https://resume-builder-deploy-1.onrender.com/'
+      '/auth': 'http://localhost:5000/'
     }
   }
 })
